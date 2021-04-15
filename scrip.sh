@@ -11,7 +11,7 @@ then
     read keyb
     git config --global user.signingkey $keyb
     git add .
-    git commit -S -m "commited using auto script"
+    git commit -S
     git push
 elif [ $choicenum == 2 ]
 then
